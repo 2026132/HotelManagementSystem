@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class FileEmployeeReader {
      public static void main (String[] args){
-            File directory = new File("C:\\Users\\ander\\Documents\\NetBeansProjects\\HotelManagementSystem\\Applicants_Form.txt");
+            File directory = new File("C:\\Users\\ander\\Documents\\NetBeansProjects\\HotelManagementSystem\\Hotel_Employees_23.txt");
             try (Scanner scanner = new Scanner(directory)) {
                 while (scanner.hasNextLine()) {
                     String line = scanner.nextLine();
